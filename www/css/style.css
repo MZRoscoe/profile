@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #ecf4ff;
+  height: 100%;
+}
+
+header {
+  background-color: #7D9D9C;
+  width: 100%;
+  padding: 15px 120px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigasi a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 30px;
+  color: #000000;
+}
+
+#logoAtas {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  color: #212121;
+  margin-left: 50px;
+}
+
+span {
+  color : #FF6000;
+}
+
+.Navigasi a:hover {
+  color: #E4DCCF;
+}
+
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-color: #000016; */
+  background-color: #222831;
+}
+
+.main h2 {
+  padding-top: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.main h2 span {
+  color: #FF6000;
+  font-size: 46px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+}
+
+.main h4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.social-icons li img {
+  width: 50px;
+  height: 50px;
+}
+
+.social-icons li {
+  display: inline;
+  margin: 10px;
+}
+
+.fotoPribadi img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+	background-color: #E4DCCF;
+	padding: 25px;
+	text-align: center;
+	background-color: #7D9D9C;
+}
